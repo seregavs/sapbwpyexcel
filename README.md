@@ -2,29 +2,29 @@
 The GNU GPLv3 also lets people do almost anything they want with your project, except distributing closed source versions.
 
 # ubex
-py/setup.py - файл для команд инсталляции при публикации модуля во внешнем репо
+py/setup.py - the file is for installation during publication in the external repo
 
-py/__version__.py - информация о версии
+py/__version__.py - version information
 
-py/ubex.py - запускалка для консольного режима
+py/ubex.py - starting py-file for running application in the console mode
 
-py/ubexoper.py - базовый класс для создания рабочих книг
+py/ubexoper.py - base class for making workbooks
 
-py/ubeхreciever.py - базовый класс для получения данных
+py/ubeхreciever.py - base class for data recieving
 
-py/excelstyles01.py - стили как в  Analysis
+py/excelstyles01.py - collrction of the Excel workbook styles same as in the SAP BW Analysis
 
-py/ubexwb_l01.py - макет для BW-отчета 1
+py/ubexwb_l01.py - py-code for making Excel-file with BW-query data (example 1)
 
-py/ubexwb_l02.py - макет для BW-отчета 2
+py/ubexwb_l02.py - py-code for making Excel-file with BW-query data (example 2)
 
-py/ubexwb_l03.py - макет для BW-отчета 3
+py/ubexwb_l03.py - py-code for making Excel-file with BW-query data (example 3)
 
-cmd/ubex.ini - файл с настройками подключений к исходным системам
+cmd/ubex.ini - connection settings
 
-cmd/run.bat - запуск UberExcel в командном режиме
+cmd/run.bat - bat-file for running application on Windows in user mode
 
-cmd/ubex_scheduler.bat - запуск UberExcel из под scheduler/cron
+cmd/ubex_scheduler.bat - bat-file for running application on Windows in background mode
 
 abap/* - ABAP-part of the framework
 
