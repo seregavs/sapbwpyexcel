@@ -11,6 +11,16 @@ from datetime import datetime
 import locale
 
 def runGrp( bwsystem, grpid, qid, uname, batch_ts: str, logger: Logger):
+    """_summary_
+
+    Args:
+        bwsystem (_type_): _description_
+        grpid (_type_): _description_
+        qid (_type_): _description_
+        uname (_type_): _description_
+        batch_ts (str): _description_
+        logger (Logger): _description_
+    """
     if not batch_ts:
         batch_ts = re.sub('[^0-9]','', str(datetime.now().replace(microsecond=0)))
     if not logger:
