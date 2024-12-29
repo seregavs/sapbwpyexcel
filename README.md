@@ -1,3 +1,6 @@
+# licence
+The GNU GPLv3 also lets people do almost anything they want with your project, except distributing closed source versions.
+
 # ubex
 py/setup.py - файл для команд инсталляции при публикации модуля во внешнем репо
 py/__version__.py - информация о версии
